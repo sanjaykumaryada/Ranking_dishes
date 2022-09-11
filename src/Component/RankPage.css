@@ -1,0 +1,33 @@
+.rank-header {
+  display: flex;
+  justify-content: space-between !important;
+  align-items: center;
+  padding: 1rem;
+  height: 5vh !important;
+  width: 97%;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+  background: #746767;
+  position: fixed;
+  top: 0%;
+}
+.card-grid {
+  width: 100%;
+  border-top: 5px;
+}
+.sec-rank-div {
+  display: flex;
+}
+.logout-button {
+  width: 100px;
+  border-radius: 10px;
+}
+.user-top {
+  cursor: pointer;
+}
+@media screen and (min-width: 768px) {
+  .rank-header {
+    justify-content: flex-end;
+    height: 20rem;
+    padding-right: 8rem;
+  }
+}

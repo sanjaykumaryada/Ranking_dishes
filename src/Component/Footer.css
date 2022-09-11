@@ -1,0 +1,14 @@
+.footer {
+  background: #746767;
+  height: 35vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.food-icon {
+  color: Red;
+}
+.para {
+  color: white;
+}
